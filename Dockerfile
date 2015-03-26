@@ -1,5 +1,5 @@
-FROM johna1203/debian:latest
-MAINTAINER Max Schaefer <max@excloo.com>
+FROM johna1203/docker-debian:latest
+MAINTAINER Johnathan Froeming <johnathan@kodokux.com>
 ENV MARIADB_DB NONE
 ENV MARIADB_USER docker
 RUN apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
